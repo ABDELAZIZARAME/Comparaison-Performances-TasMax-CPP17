@@ -1,0 +1,17 @@
+etape,version,total_ms,placement_ms,ajustement_ms,echanges,comparaisons
+insertion,A,100.577,19.392,81.185,1281578,2281568
+insertion,B,117.138,17.59,99.548,N/A,N/A
+recherche,A,900000,0_ns,trouve,comparaisons=91698
+recherche,B,900000,3.382e+007_ns,trouve,examines=49811
+insertion,A,90.471,9.715,80.756,1281578,2281568
+insertion,B,69.169,N/A,N/A,N/A,N/A
+recherche,A,900000,0_ns,trouve,comparaisons=91698
+recherche,B,900000,7.4952e+007_ns,trouve,examines=49811
+extraction_une_racine,A,0_ns,max=1000000,echanges=19,comparaisons=38
+extraction_une_racine,B,0_ns,max=1000000
+extraction_une_racine,A,0_ns,max=1000000,echanges=18,comparaisons=38
+extraction_une_racine,B,0_ns,max=1000000
+recherche,A,999999,0_ns,trouve,comparaisons=2
+recherche,B,999999,0_ns,trouve,examines=2
+recherche,A,54,535000_ns,trouve,comparaisons=250000
+recherche,B,54,2.2765e+008_ns,trouve,examines=500504
